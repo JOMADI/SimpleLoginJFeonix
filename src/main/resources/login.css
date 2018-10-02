@@ -1,0 +1,58 @@
+.button{
+    -fx-font-size: 14px;
+    -fx-background-color: linear-gradient(to right, #04DBDD, #FD00FF);
+    -fx-pref-width: 254;
+    -fx-text-fill: WHITE;
+    -fx-cursor: HAND;
+    -fx-padding: 10px 20px 10px 20px;
+    -fx-background-radius: 30px;
+ }
+
+ .button:hover{
+    -fx-font-size: 14px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: linear-gradient(to right, #FD00FF, #04DBDD);
+    -fx-pref-width: 254;
+    -fx-text-fill: WHITE;
+    -fx-cursor: HAND;
+    -fx-padding: 10px 20px 10px 20px;
+    -fx-background-radius: 30px;
+ }
+
+ .anchor-pane-raised{
+    -fx-padding: 5 10 5 10;
+    -fx-background-radius:20;
+    -fx-background-color: WHITE;
+ }
+
+ .anchor-parent{
+    -fx-background-image: url("/bg_01.jpg");
+ }
+
+ .other-login:hover{
+     -fx-cursor: HAND;
+     -fx-icon-color: #323232;
+ }
+
+ .forgot:hover{
+    -fx-cursor: HAND;
+    -fx-text-fill: #d840ff;
+ }
+
+ .ikonli-font-icon#passIcon{
+    -fx-icon-color: #bcb7bd
+ }
+
+ .ikonli-font-icon#userIcon{
+    -fx-icon-color: #bcb7bd
+ }
+
+ .text:focused .ikonli-font-icon#userIcon{
+    -fx-font-weight: bold;
+    -fx-icon-color: #d840ff;
+ }
+
+ .text:focused .ikonli-font-icon#passIcon{
+     -fx-font-weight: bold;
+     -fx-icon-color: #d840ff;
+  }
